@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+
     <ImageView
         android:id="@+id/ivBookCover"
         android:layout_width="56dp"
