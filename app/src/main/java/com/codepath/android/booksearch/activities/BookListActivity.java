@@ -55,7 +55,8 @@ public class BookListActivity extends AppCompatActivity {
         bookAdapter = new BookAdapter(this, abooks);
         bookAdapter.setOnItemClickListener(new BookAdapter.OnItemClickListener() {
             @Override
-            public void onItemClick(View itemView, int position) {
+            public void onItemClick(View itemView, int position)
+            {
                 Toast.makeText(
                         BookListActivity.this,
                         "An item at position " + position + " clicked!",
